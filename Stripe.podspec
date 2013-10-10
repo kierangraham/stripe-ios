@@ -5,10 +5,9 @@ Pod::Spec.new do |s|
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage            = "https://stripe.com"
   s.author              = { "Saikat Chakrabarti" => "saikat@stripe.com" }
-  s.source              = { :git => "https://github.com/stripe/stripe-ios.git", :tag => "v1.0.2"}
+  s.source              = { :git => "https://github.com/kierangraham/stripe-ios.git", :tag => "v1.0.2"}
   s.source_files        = 'Stripe/**/*.{h,m}'
   s.public_header_files = 'Stripe/**/*.h'
   s.framework           = 'Foundation'
   s.requires_arc        = true
-  s.dependency 'PaymentKit'
 end
